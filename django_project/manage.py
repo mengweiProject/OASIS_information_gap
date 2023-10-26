@@ -3,6 +3,12 @@
 import os
 import sys
 
+from util.db_pool import Database
+
+# db1 = Database()
+# db1.connect()
+# conn1 = db1.get_connection()
+# cursor1 = conn1.cursor()
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_project.settings')

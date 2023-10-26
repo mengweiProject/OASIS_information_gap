@@ -69,16 +69,51 @@
 #     log_message("aaaaaaaaasdgasgadsf")
 
 
-d = {'a': 1, 'b': 2}
-# d.pop('c')
-# print(d)
-# print(len(d))
-l = [1, 2, 3, 4, 5]
-a, *_, b = l
+# d = {'a': 1, 'b': 2}
+# # d.pop('c')
+# # print(d)
+# # print(len(d))
+# l = [1, 2, 3, 4, 5]
+# a, *_, b = l
+
+# import pandas as pd
+#
+# s = pd.Series(dtype=float)
 
 
+# def conditional_decorator(condition):
+#     print('11111111111')
+#     def decorator(func):
+#         if condition:
+#             # 给目标函数添加装饰器
+#             def wrapped_func(*args, **kwargs):
+#                 # 在目标函数执行前添加一些额外的功能
+#                 print("Before calling the decorated function")
+#                 result = func(*args, **kwargs)
+#                 # 在目标函数执行后添加一些额外的功能
+#                 print("After calling the decorated function")
+#                 return result
+#             return wrapped_func
+#         else:
+#             # 不给目标函数添加装饰器，直接返回原函数
+#             return func
+#     return decorator
 
+# 定义一个条件，用于决定是否给目标函数添加装饰器
+# condition = True
+#
+# @conditional_decorator(condition)
+# def target_function():
+#     print("This is the target function")
+#
+# # 调用目标函数
+# target_function()
 
+# import pandas as pd
+#
+# df = pd.DataFrame({'A': [1, 2, 3, 3, 4],
+#                    'B': ['a', 'b', 'b', 'c', 'd']})
+# print(df)
 
 
 
